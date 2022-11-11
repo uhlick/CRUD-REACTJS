@@ -1,0 +1,328 @@
+* {
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  color: #949FA6;
+  margin: 2px;
+}
+.svg-logo-header {
+  height: 17px;
+  margin-right: 11px;
+}
+
+.register-logo {
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+.svglogo {
+  margin-top: -10px;
+}
+
+.bar {
+  margin-left: 32px;
+   display: flex;
+}
+
+.newclient {
+  font-size: 24px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+label {font-weight: 500;
+  font-size: 13px;
+}
+.table>:not(caption)>*>* {
+
+  height: 49px;
+
+}
+
+.td-cabecalho-nome {
+  border-right: 1px !important;
+}
+
+
+.td-cabecalho-fim {
+  border-left: 1px !important;
+}
+
+.td-cabecalho {
+  border-right: 0 !important;
+  border-left: 0 
+  !important;
+  border-width: 0 !important;
+}
+
+.button-cadastrar{
+  border-color: transparent ;
+/* Auto layout */
+font-size: 18px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 32px;
+gap: 8px;
+
+position: absolute;
+left: 6.52%;
+right: 6.52%;
+top: 86.67%;
+bottom: 5.33%;
+
+/* Primário/900 */
+
+background: #7F23F7;
+color: white;
+border-radius: 4px;
+}
+
+.container-header {
+  display: flex;
+  background: rgb(255, 255, 255);
+  width: 1440px;
+  height: 1024px;
+  flex-direction: column;
+  margin-left: 260px;
+}
+
+.containe {
+  margin-top: 70px;
+  border: 1px solid #E8E8E8;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.09);
+border-radius: 5px;
+  display: flex;
+  max-width: 491px;
+  max-height: 600px;
+  min-width: 491px;
+  min-height: 600px;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+.logo {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin: 0;
+line-height: 24px;
+color: #232426;
+}
+
+.header-part1 {
+  display: flex;
+  align-items: center;
+}
+
+.header-part2 {
+  display: flex;
+  align-items: center;
+}
+.header-divider {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.header {
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  position: absolute;
+width: 100%;
+height: 1px;
+left: 0px;
+top: 64px;
+color: black;
+}
+
+.btn-clos {
+  font-size: 17px;
+  margin: 14px;
+  color: #949FA6;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(240, 240, 240) !important;
+}
+.btn-succes {
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 29px;
+  width: 158px;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  background-color: #7F23F7;
+  border-radius: 4px;
+}
+.divbtn{
+  margin-bottom: 29px;
+  margin-top: 20px;
+  display: flex;
+  float: left;
+}
+
+tr {
+  background-color: white;
+}
+
+.table>tbody {
+ vertical-align:baseline !important;
+}
+
+td {
+  font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+
+/* Neutro/700 */
+
+color: #666D73;
+
+}
+
+.table>:not(caption)>*>* {
+  padding: 1rem !important;
+  padding-right: 3rem !important;
+  background-color: var(--bs-table-bg) !important;
+  border-bottom-width: 1px !important;
+}
+
+.tr-wallpaper {
+  background-color: #F9F9F9;
+}
+
+
+
+.membros {
+  font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+padding-right: 1rem;
+line-height: 17px;
+
+/* Neutro/600 */
+
+color: #949FA6;
+
+}
+
+
+.profile img{
+border-radius: 5px;
+}
+
+
+
+.containerr{
+  padding-left: 96px;
+  padding-right: 0px;
+  display: flex;
+  width: 1399px;
+  justify-content: center;
+
+  flex-direction: column;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.svgeclient {
+  align-items: center;
+  margin-top: 32px;
+  padding-left: 32px;
+  display: flex;
+}
+
+
+
+
+.card-title {
+  display: flex;
+  margin-bottom: var(--bs-card-title-spacer-y);
+  justify-content: space-between;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-controler {
+  padding-left: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  line-height: 17px;
+  align-items: center;
+  font-size: 13px;
+  width: 100%;
+  height: 37px;
+  background: #F2F2F2;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+::placeholder { 
+  color: #949FA6;
+  display: flex;
+  margin-top: 4rem;
+  padding-left: 34px;
+  align-content: center;
+  opacity: 1; 
+  font-weight: 400;
+
+} 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
