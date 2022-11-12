@@ -135,6 +135,19 @@ const EmpCreate = () => {
                                         </div>
                                     </div>
 
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label>Cidade</label>
+                                            <input required value={cidade} onMouseDown={e=>valchange(true)} onChange={e=>cidadechange(e.target.value)} className="form-controler" placeholder="Digite aqui..."></input>
+                                        {cidade.length==0 && validation && <span className="text-danger"></span>}
+                                        <BsCursorText   className="icon"
+                                                style={{
+                                                    position: 'absolute', display: 'flex', right: '441px', top: '503PX', color: '#949FA6',width: '18px', height: '20px',
+                                                                }}size="50px" color="black"/> 
+                                                                {cidade.length==0 && validation && <span className="text-danger"></span>}
+                                        </div>
+                                    </div>
+
 
                                     <div className="col-lg-12">
                                         <div className="form-group">

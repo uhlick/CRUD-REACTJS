@@ -6,7 +6,37 @@
       "telefone": "47999615273",
       "cnpj": "11049277996",
       "endereco": "R. Benjamin Constant, 3.2...",
-      "cidade": "",
+      "cidade": "Joinville",
+      "active": true,
+      "id": 1
+    },
+    {
+      "nome": "Integrare Assesoria de Marketing",
+      "email": "anton_archer@hotmail.com",
+      "telefone": "47999615273",
+      "cnpj": "11049277996",
+      "endereco": "R. Benjamin Constant, 3.2...",
+      "cidade": "Joinville",
+      "active": true,
+      "id": 2
+    },
+    {
+      "nome": "Integrare Assesoria de Marketing",
+      "email": "anton_archer@hotmail.com",
+      "telefone": "47999615273",
+      "cnpj": "11049277996",
+      "endereco": "R. Benjamin Constant, 3.2...",
+      "cidade": "Joinville",
+      "active": true,
+      "id": 3
+    },
+    {
+      "nome": "Integrare Assesoria de Marketing",
+      "email": "anton_archer@hotmail.com",
+      "telefone": "47999615273",
+      "cnpj": "11049277996",
+      "endereco": "R. Benjamin Constant, 3.2...",
+      "cidade": "Joinville",
       "active": true,
       "id": 4
     },
@@ -16,39 +46,9 @@
       "telefone": "47999615273",
       "cnpj": "11049277996",
       "endereco": "R. Benjamin Constant, 3.2...",
-      "cidade": "",
+      "cidade": "Joinville",
       "active": true,
       "id": 5
-    },
-    {
-      "nome": "Integrare Assesoria de Marketing",
-      "email": "anton_archer@hotmail.com",
-      "telefone": "47999615273",
-      "cnpj": "11049277996",
-      "endereco": "R. Benjamin Constant, 3.2...",
-      "cidade": "",
-      "active": true,
-      "id": 6
-    },
-    {
-      "nome": "Gustavo uhlick",
-      "email": "tutauhlick@gmail.com",
-      "telefone": "47999000604",
-      "cnpj": "7777",
-      "endereco": "Rua Olimpio Vidal Teixeira",
-      "cidade": "",
-      "active": true,
-      "id": 7
-    },
-    {
-      "nome": "Gustavo uhlick",
-      "email": "tutauhlick@gmail.com",
-      "telefone": "47999000604",
-      "cnpj": "23",
-      "endereco": "Rua Olimpio Vidal Teixeira",
-      "cidade": "",
-      "active": true,
-      "id": 8
     }
   ]
 }
