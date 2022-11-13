@@ -7,6 +7,47 @@
   text-align: center;
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.registros {
+  font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+padding-right: 1rem;
+line-height: 17px;
+color: #949FA6;
+text-decoration: none;
+display: flex;
+align-items: center;
+}
+
+tbody {
+  width: 1427px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-bordered>:not(caption)>* {
+border-bottom: 1px !important;
+}
+
+.tr-cabecalho {
+  display: flex;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 /* HEADER */
 .profile img{
   border-radius: 5px;
@@ -119,11 +160,13 @@ color: #949FA6;
   height: 29px;
   width: 158px;
   font-size: 13px;
-  color: white;
+  color: white !important;
   text-decoration: none;
   background-color: #7F23F7;
   border-radius: 4px;
 }
+
+
 /* FIM*/
 
 
@@ -188,31 +231,89 @@ label {font-weight: 500;
 .cliente-nome {
   color: #666D73;
   text-decoration: none;
-  padding-right: 60px;
+  display: flex;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: -79px;
+    color: #666D73;
+    text-decoration: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
 }
 
 .cliente-nome-email {
+  display: flex;
+    margin-top: 6px;
+    margin-left: 95px;
+    margin-right: -79px;
+    color: #666D73;
+    text-decoration: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
   color: #666D73;
   text-decoration: none;
-  padding-right: 100px;
 }
 
 .cliente-nome-telefone {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 162px;
+  margin-right: -79px;
   color: #666D73;
   text-decoration: none;
-  padding-right: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #666D73;
+  text-decoration: none;
+  color: #666D73;
+  text-decoration: none;
+
 }
 .cliente-nome-CNPJ {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 230px;
+  margin-right: -79px;
   color: #666D73;
   text-decoration: none;
-  padding-right: 30px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #666D73;
+  text-decoration: none;
+  color: #666D73;
+  text-decoration: none;
 }
 .cliente-nome-endereco {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 230px;
+  margin-right: -79px;
   color: #666D73;
   text-decoration: none;
-  padding-right: 67px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #666D73;
+  text-decoration: none;
+  color: #666D73;
+  text-decoration: none;
 }
 .cliente-nome-cidade {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 236px;
+  margin-right: -79px;
+  color: #666D73;
+  text-decoration: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #666D73;
+  text-decoration: none;
   color: #666D73;
   text-decoration: none;
   padding-right: 0px;
@@ -220,18 +321,18 @@ label {font-weight: 500;
 
 .header-divider-1 {
   position: absolute;
-  margin-top: -35px;
-  margin-left: 154px;
+  margin-top: 13px;
+  margin-left: -438px;
 }
 .header-divider-2 {
   position: absolute;
-  margin-top: -35px;
-  margin-left: 385px;
+  margin-top: 13px;
+  margin-left: -175px;
 }
 .header-divider-3 {
   position: absolute;
-  margin-top: -35px;
-  margin-left: 549px;
+  margin-top: 13px;
+  margin-left: 313px;
 }
 
 .header-divider-4 {
@@ -246,43 +347,48 @@ label {font-weight: 500;
 }
 
 .text-icon-1 {
-  margin-top: 168px;
+  margin-top: 166px;
   position: absolute;
-  margin-left: 121px;
+  margin-left: 105px;
+}
+
+.searchdiv {
+  margin-right: 16px;
+  margin-left: 16px;
 }
 .text-icon-2 {
-  margin-top: 168px;
+  margin-top: 166px;
   position: absolute;
-  margin-left: 1213px;
+  margin-left: 1347px;
 }
 .text-icon-3 {
-  margin-top: 168px;
+  margin-top: 166px;
   position: absolute;
-  margin-left: 980px;
+  margin-left: 1133px;
 }
 
 .plus-icon {
-  margin-top: -105px;
-  margin-left: -128px;
+  margin-top: -53px;
+  margin-left: -694px;
   position: absolute;
 }
 
 .email-icon {
-  margin-top: 170px;
+  margin-top: 168px;
   position: absolute;
-  margin-left: 406px;
+  margin-left: 382px;
 }
 
 .cnpj-icon {
-  margin-top: 168px;
+  margin-top: 165px;
   position: absolute;
-  margin-left: 800px;
+  margin-left: 919px;
 }
 
 .telefone-icon {
-  margin-top: 168px;
+  margin-top: 165px;
   position: absolute;
-  margin-left: 635px;
+  margin-left: 649px;
 }
 
 /* FIM */
@@ -298,7 +404,7 @@ label {font-weight: 500;
 
 
 .td-cabecalho {
-  padding-right: 10px;
+
   border-right: 0 !important;
   border-left: 0 
   !important;
@@ -358,23 +464,37 @@ td {
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
-
-/* Neutro/700 */
-
 color: #666D73;
+width: 20%;
 
 }
 
+.tr-wallpaper {
+  width: 100%;
+}
+
 .table>:not(caption)>*>* {
-  padding: 1rem !important;
-  padding-right: 3rem !important;
   background-color: var(--bs-table-bg) !important;
-  border-bottom-width: 1px !important;
+}
+
+
+.table {
+  width: 1430px !important;
+  background: #FFFFFF;
+/* Neutro/400 */
+
+border: 1px solid #E8E8E8;
+border-radius: 5px;
+}
+
+.table-bordered>:not(caption)>*>* {
+border-width: 0 0px !important;
 }
 
 .tr-wallpaper {
   background-color: #F9F9F9;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
