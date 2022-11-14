@@ -163,7 +163,7 @@ const EmpCreate = () => {
 
                     </form>
 
-
+                    <Link to="Goalfy/cep" className="button-cadastrar">CONSULTA CEP</Link>
 
         </div>
     );

@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { AiOutlinePlusCircle } from 'react-icons/ai'
 import perfil from 'C:/Users/Uhlick/WorkSpace/Goalfy/src/perfil.png'
-import { BsCursorText } from 'react-icons/bs'
-import { MdOutlineAlternateEmail } from 'react-icons/md'
-import { BsTelephone } from 'react-icons/bs'
-import { BsCardList } from 'react-icons/bs'
+
 
 
 const EmpListing = () => {
